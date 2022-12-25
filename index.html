@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<!-- saved from url=(0019)https://nxne.media/ -->
+<html lang="en">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+	<title>Sudam Media</title>
+	<meta name="title" content="Sudam Media">
+	<style>
+		@font-face {
+			font-family: 'NXNE';
+			src: local('NXNE'), url('./assets/nxne.ttf') format('truetype');
+		}
+
+		body {
+			background-color: black;
+			color: white;
+			-webkit-user-select: none;
+			-ms-user-select: none;
+			user-select: none;
+			-webkit-animation: fade ease 1.75s;
+			-moz-animation: fade ease 1.75s;
+			-ms-animation: fade ease 1.75s;
+			-o-animation: fade ease 1.75s;
+			font-family: 'NXNE';
+		}
+
+		.hover {
+			display: inline-block;
+			position: relative;
+		}
+
+		.hover:after {
+			content: '';
+			position: absolute;
+			width: 100%;
+			transform: scaleX(0);
+			height: 0.75px;
+			bottom: 0;
+			left: 0;
+			background-color: #fff;
+			transform-origin: bottom right;
+			transition: transform 0.25s ease-out;
+		}
+
+		.hover-dim {
+			display: inline-block;
+			position: relative;
+		}
+
+		.hover-dim:after {
+			content: '';
+			position: absolute;
+			width: 100%;
+			transform: scaleX(0);
+			height: 0.75px;
+			bottom: 0;
+			left: 0;
+			background-color: gray;
+			transform-origin: bottom right;
+			transition: transform 0.25s ease-out;
+		}
+
+		.hover-dim:hover:after {
+			transform: scaleX(1);
+			transform-origin: bottom left;
+		}
+
+		.hover:hover:after {
+			transform: scaleX(1);
+			transform-origin: bottom left;
+		}
+
+		@keyframes fade {
+			from {
+				opacity: 0;
+			}
+
+			to {
+				opacity: 1;
+			}
+		}
+
+		a {
+			color: white;
+			text-decoration: none;
+		}
+
+		img {
+			height: 55%;
+			width: 55%;
+		}
+
+		h4 {
+			color: gray;
+		}
+
+		.dim {
+			color: gray !important;
+		}
+
+		.main {
+			font-size: 2rem;
+		}
+
+		@media only screen and (max-width: 600px) {
+			body {
+				margin-top: 50%;
+			}
+
+			img {
+				height: 30%;
+				width: 30%;
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<div class="content">
+		<center>
+			<img src="file:///D:/SMMA/Website/media/logo/Sudam%20(1)%20black-bg-EDITED_adobe_express.svg"
+				alt="SUDAM MEDIA"><br>
+			<a href="mailto:suyash@sudam.media" class="hover main">suyash@sudam.media</a>
+			<h4>Office 698/A, Ankoor Park 2B, Mukundnagar, 411037, India</h4>
+			<h5 class="dim">
+				©
+				<script>
+					document.write(new Date().getUTCFullYear());
+				</script>
+				Sudam Media
+			</h5>
+
+		</center>
+	</div>
+
+
+</body>
+
+</html>
